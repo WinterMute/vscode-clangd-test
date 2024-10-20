@@ -1,0 +1,12 @@
+{
+    "makefile.configureOnOpen": false
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+
+    "clangd.arguments": [
+        "-log=verbose", 
+        "-pretty", 
+        "--background-index", 
+        "--query-driver=${env:DEVKITPRO}/*/bin/*",
+    ]
+
+}
