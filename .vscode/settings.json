@@ -1,6 +1,11 @@
 {
-    "makefile.configureOnOpen": false
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+    "makefile.configureOnOpen": false,
+
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+
+    "C_Cpp.intelliSenseEngine": "Disabled",
+
+    "editor.inlayHints.enabled": "off",
 
     "clangd.arguments": [
         "-log=verbose", 
